@@ -1,0 +1,14 @@
+{
+  "albuminfo1": 
+    {"album": 
+      {"title": "- Gemini -", "autor": "Rob Cope", "img":"pics/Rob_Cope_Gemini.png"}, 
+      "categories": {"category": "Recenzia", "categoryLink": "reviews.html"} , 
+      "reviewers": { "reviewer": "Marek Novák", "reviewerLink": "reviewer_novak.html"}, 
+      "review": {"reviewLink": "review_gemini.html"}
+    },
+  "albuminfo2": 
+    {"album": 
+      {"title": "- Time Out -", "autor": "The Dave Brubeck Quartet", "img":"pics/The_Dave_Brubeck_Quartet_Time_Out.png"}, 
+      "categories": {"category": "Zlatá klasika", "categoryLink": "golden_classic.html"} , 
+      "reviewers": { "reviewer": "Lukáš Horváth", "reviewerLink": "reviewer_horvath.html"}, 
+      "review": {"reviewLink": "review_time_out.html"}}}

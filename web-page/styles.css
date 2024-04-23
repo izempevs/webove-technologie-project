@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Federo';
+    src: url('fonts/Federo-Regular.woff') format('woff2'),
+        url('fonts/Federo-Regular.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'Fascinate Inline';
+    src: url('fonts/FascinateInline-Regular.woff') format('woff2'),
+        url('fonts/FascinateInline-Regular.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url('fonts/Abel-Regular.woff') format('woff2'),
+        url('fonts/Abel-Regular.woff2') format('woff');
+}
+
+
+/*----------------------------BUTTONS STYLE------------------------------*/
+
+.btn-primary {
+    font-family: 'Federo', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #D13626;
+    border-color: #D13626;
+    border-radius: 0px;
+}
+.btn-primary:hover {
+    background-color: #F14735;
+    border-color: #F14735;
+}
+.btn-primary:active  {
+    background-color: #F14735;
+    border-color: #F14735;
+}
+
+/*----------------------------HEADER------------------------------*/
+.header {
+    background-image: url("pics/Headpic.png");
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.block-navbar {
+    text-align: right;
+    padding-top: 13px;
+}
+
+.logo {
+    font-family: 'Fascinate Inline', Arial, sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.logo:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.logo:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.logo:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.logo:hover {
+    color: #DDD5D5;
+    text-decoration: none;
+}
+.logo:active{
+    color: #DDD5D5;
+    text-decoration: none;
+}
+
+
+.navbar-text {
+    font-family: 'Federo', Arial, sans-serif;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.navbar-text:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar-text:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar-text:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar-text:hover {
+    color: #DDD5D5;
+    text-decoration: none;
+}
+.navbar-text:active{
+    color: #DDD5D5;
+    text-decoration: none;
+}
+
+
+/*----------------------------MAIN PAGE------------------------------*/
+.album-link {
+    font-family: 'Federo', Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.album-link:link {
+    color: #000000;
+    text-decoration: none;
+}
+.album-link:visited {
+    color: #695D75;
+    text-decoration: none;
+}
+.album-link:hover {
+    color: #636363;
+    text-decoration: underline;
+}
+.album-link:active {
+    color: #636363;
+    text-decoration: underline;
+}
+
+.reviewer-link, .category-link {
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 20px;
+}
+.reviewer-link:link, .category-link:link {
+    color: #636363;
+    text-decoration: none;
+} 
+.reviewer-link:visited, .category-link:visited {
+    color: #695D75;
+    text-decoration: none;
+}
+.reviewer-link:hover, .category-link:hover  {
+    color: #565656;
+    text-decoration: underline;
+}
+.reviewer-link:active, .category-link:active  {
+    color: #565656;
+    text-decoration: underline;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*----------------------------REVIEW------------------------------*/
+.img-fliud {
+    width: 100%;
+    height: auto;
+}
+
+.album-title {
+    margin-bottom: 20px;
+    font-family: 'Federo', Arial, sans-serif;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+
+.block-review {
+    margin-top: 30px;
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+comment-box {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.comment-box p {
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 20px;
+}
+.comment-box textarea {
+    width: 100%;
+    min-height: 120px;
+    box-sizing: border-box;
+    border-radius: 0;
+    resize: none;
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/*----------------------------ABOUT US------------------------------*/
+
+.aboutus-title {
+    margin-bottom: 20px;
+    font-family: 'Federo', Arial, sans-serif;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+.aboutus-text {
+    margin-top: 30px;
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 50px;
+}
+
+
+#contactForm label {
+    font-family: 'Abel', Arial, sans-serif; 
+    font-size: 18px; 
+    color: #000000;
+}
+#contactForm input,
+#contactForm textarea {
+    font-family: 'Abel', Arial, sans-serif; 
+    font-size: 18px;
+    color: #636363;
+}
+
+#emailInput{
+    border-radius: 0px;
+}
+#nameInput{
+    border-radius: 0px;
+}
+#messageTextarea{
+    border-radius: 0px;
+}
+
+
+input[type="radio"] {
+    appearance: none; 
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #636363; 
+    outline: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+}
+input[type="radio"]:checked {
+    background-color: #636363;
+    border-color: #636363; 
+    box-shadow: none;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 2px solid #636363;
+    border-color: #636363;
+    box-shadow: none;
+}
+input[type="checkbox"]:active {
+    border-radius: 0px;
+    border-color: #636363;
+    background: #636363;
+    box-shadow: none; 
+}
+input[type="checkbox"]:checked {
+    border-radius: 0px;
+    background-color: #636363; 
+    border-color: #636363; 
+    box-shadow: none;
+}
+input[type="checkbox"]:not(:checked) {
+    border-radius: 0px;
+    background-color: white; 
+    border-color: #636363; 
+    box-shadow: none;
+}
+
+/*----------------------------FOOTER------------------------------*/
+
+.footer {
+background-color: #E0E0E0;
+margin-top: 100px;
+}
+
+.block-copyright {
+    font-family: 'Federo', Arial, sans-serif;
+    color: #636363;
+    font-size: 16px;
+    text-align: right;
+}
+
+
+

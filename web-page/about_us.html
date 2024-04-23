@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <title>JazzyVibes - Gemini</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header row pt-5 pb-5">
+            <div class="col-4">
+                <div class="block-nav-logo">
+                    <a href="index.html" class="logo">JazzyVibes</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="block-navbar">
+                    <a href="reviews.html" class="navbar-text">RECENZIE</a>
+                    <a href="golden_classic.html" class="navbar-text">ZLATÁ KLASIKA</a>
+                    <a href="galery.html" class="navbar-text">GALÉRIA</a>
+                    <a href="about_us.html" class="navbar-text">O NÁS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    
+        <div class="review row mt-4 mb-4">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="aboutus-title">O NÁS</div>
+
+                <div class="aboutus-text">
+                    <p>Sme trojica vášnivých fanúšikov jazzu, ktorí nielen sledujeme novinky v jazzovej hudbe, ale aj nostalgicky spomíname na klasické jazzové albumy. Rozhodli sme sa vytvoriť webovú stránku, kde budeme písať recenzie na jazzové albumy pre všetkých, ktorým táto hudba rezonuje. Naša vášeň pre jazz nás spája a chceme ju zdieľať s ďalšími fanúšikmi.</p>
+                    <p>Tešíme sa na spoločnú cestu jazzovým svetom!</p>
+                </div>
+
+                <div class="aboutus-title">Kontaktujte nás</div>
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="emailInput">Email<span style="color: red;"> *</span></label>
+                        <input type="email" class="form-control" id="emailInput" aria-describedby="Emailova adresa" placeholder="Váš email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nameInput">Meno<span style="color: red;"> *</span></label>
+                        <input type="text" class="form-control" id="nameInput" aria-describedby="Vase meno" placeholder="Vaše meno">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messageTextarea">Správa</label>
+                        <textarea class="form-control" id="messageTextarea" rows="5" placeholder="Napíšte svoju správu"></textarea>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="newsRadios" id="yesRadio" value="yes" checked>
+                        <label class="form-check-label" for="yesRadio">
+                            Chcem dostávať email s novinkami
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="newsRadios" id="noRadio" value="no">
+                        <label class="form-check-label" for="noRadio">
+                            Nechcem dostávať email s novinkami
+                        </label>
+                      </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="termsCheckbox" required>
+                        <label class="form-check-label" for="termsCheckbox">
+                            Súhlasím so spracovaním osobných údajov<span style="color: red;"> *</span>
+                        </label>
+                      </div>
+
+                      
+                      <button type="submit" class="btn btn-primary mt-2" id="submitBtn" value="Odoslat">Odoslať</button>
+                  </form>
+
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid"> 
+        <div class="footer row pt-5 pb-5">
+            <div class="col-8"></div>
+            <div class="col-4">
+                <div class="block-copyright">© JazzyVibes, 2024</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
